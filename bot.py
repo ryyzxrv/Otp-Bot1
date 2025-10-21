@@ -15,25 +15,25 @@ import random
 from datetime import datetime, timedelta
 
 # --- Configuration ---
-BOT_NAME = "Otpcarrier Bot"
-USERNAME = "somir06"
-PASSWORD = "942006ra"
+BOT_NAME = "DontolOTP"
+USERNAME = "ireng1"
+PASSWORD = "dontolotp"
 DB_FILE = "sms_database_np.db" 
 
 # --- Telegram Configuration ---
-TELEGRAM_BOT_TOKEN = "8431727184:AAHNDgOGcXfNeRVPX1w6IEAUks82Lu0xyHM"
-DEFAULT_GROUP_CHAT_ID = "-1002229919396" 
-DM_CHAT_ID = "7494475905" 
+TELEGRAM_BOT_TOKEN = "8303159307:AAHtIbXQJt0DjHBSUJSLhR1UZVKYJpDQuGI"
+DEFAULT_GROUP_CHAT_ID = "-1002905110441" 
+DM_CHAT_ID = "7562165596" 
 
 # --- New Configuration (Developer Info Removed from Message) ---
-DEVELOPER_NAME = "Mr. Innocent"
-DEVELOPER_TG_ID = "7494475905" 
+DEVELOPER_NAME = "R4yyZxrv"
+DEVELOPER_TG_ID = "7562165596" 
 
 # --- API Endpoints ---
-BASE_URL = "http://51.89.99.105/ints"
-DOMAIN_URL = "http://51.89.99.105"
-LOGIN_PAGE_URL = f"http://51.89.99.105/NumberPanel/login"
-SMS_HTML_PAGE_URL = f"http://51.89.99.105/NumberPanel/agent/SMSCDRReports" 
+BASE_URL = "http://51.83.103.80/ints/client/SMSDashboard"
+DOMAIN_URL = "http://51.83.103.80"
+LOGIN_PAGE_URL = f"http://51.83.103.80/ints/login"
+SMS_HTML_PAGE_URL = f"http://51.83.103.80/ints/client/SMSCDRStats" 
 
 POTENTIAL_API_URLS = [
     f"{BASE_URL}/agent/res/data_smscdr.php",
